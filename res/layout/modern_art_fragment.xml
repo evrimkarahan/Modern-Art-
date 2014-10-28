@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+		
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_weight="10" >
+    
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4" 
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/colorBox1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#800080"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"/>
+        
+         <LinearLayout
+             android:id="@+id/colorBox2"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:background="#FFC0CB"
+             android:layout_marginTop="5dp"
+             android:layout_marginBottom="5dp"
+             android:layout_marginRight="5dp"/>
+         
+         </LinearLayout>
+      
+         
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3" 
+            android:orientation="vertical" >
+
+          <LinearLayout
+              android:id="@+id/colorBox3"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:background="#FF0000"
+              android:layout_marginBottom="5dp" />
+          
+           <LinearLayout
+               android:id="@+id/colorBox4"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#FFFFFF"
+               android:layout_marginBottom="5dp"
+               android:layout_marginTop="5dp"/>
+           
+           <LinearLayout
+               android:id="@+id/colorBox5"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="#0000FF"
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="5dp"/>
+           
+         </LinearLayout>
+
+	</LinearLayout>
+	
+     	 <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="100"  />
+        
+</LinearLayout>
